@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    /* margin-top: 20px; */
+}
+.wrapper{
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    min-height: 80vh;
+    margin-bottom: 5%;
+}
+header{
+    padding: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+button{
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.info-section{
+    display: flex;
+    justify-content: center;
+}
+.about{
+   margin-top: 20px;
+   float: left;
+   width: 400px;
+
+}
+h1{
+    font-size: 40px;
+    line-height: 50px;
+}
+.about .about-text{
+    margin-top: 50px;
+}
+.about-text p{
+    font-size: 16px;
+    line-height: 25px;
+}
+.pink{
+    margin-top: 15px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: hsl(322, 100%, 66%);
+    padding: 5px 20px 5px 20px;
+}
+.about-text a{
+    font-size: 11px;
+}
+.white-bg{
+    display: flex;
+    justify-content: center;
+}
+.shadow{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 5px rgba(128, 128, 128, 0.575);
+}
+.illustrate{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    padding: 3%;
+   float: left;
+   width: 500px;
+   height: 300px;
+   border-radius: 5px;
+}
+.illustrate-text{
+    margin-top: 8%;
+    color: hsl(208, 11%, 55%);
+    margin-right: 10px;
+    padding: 19px;
+    font-size: 14px;
+}
+h2{
+    color: black;
+    line-height: 40px;
+}
+image{
+    max-width: 100%;
+    height: auto;
+}
+.illustrate img{
+    margin-left: 2em;
+}
+.footer{
+    height: 500px;
+    background-color:  hsl(192, 100%, 9%);
+    margin-top: 20%;
+}
+.minibox{
+    background-color: white;
+    height: 150px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+@media (max-width: 375px) {
+    body{
+        width: 370px;
+    }
+    .wrapper{
+        min-height: 80vh;
+        
+        margin-bottom: 5%;
+    }
+    .wrap-content{
+        width: 300px;
+    }
+    header{
+        padding: 5px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    
+    a{
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .about{
+    margin-top: 10px;
+    float: left;
+    width: 200px;
+
+    }
+    h1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .about .about-text{
+        margin-top: 30px;
+    }
+    .about-text p{
+        font-size: 13px;
+        line-height: 30px;
+    }
+    #img_one{
+        width: 200px;
+        height: 150px;
+    }
+    .illustrate{
+        margin-right: 5px
+        ;
+       float: left;
+       width: 300px;
+       height: 200px;
+       border-radius: 5px;
+       text-align: center;
+    }
+    .illustrate-text{
+        margin-top: 2%;
+        padding: 5px;
+    }
+    .vector{
+        height: 150px;
+    }
+}
